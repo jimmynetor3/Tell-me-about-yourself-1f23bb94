@@ -1,0 +1,62 @@
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+
+input,label {
+    margin: .4rem 0;
+}
+.preference {
+    display: flex;
+    justify-content:
+    width: 60%;
+    margin: .5rem;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+#exciting {
+    background: linear-gradient(to bottom, #ffe8d4, #f69d3c);
+    border: 1px solid #696969;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px black;
+}
+
+#exciting:before {
+    content: "ℹ️";
+    margin-right: 5px;
+}
+
+form {
+    display: table;
+}
+
+div {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+margin-bottom: 10px;
+border:10px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+
+label {
+    padding-right: 10px;
+}
+
+body{
+    background-color: powderblue;
+}
+#box{
+    border:10px solid #000;
+    border-radius: 40px 40px 40px 40px;
+    width: 200px;
+    height: 100px;
+}
